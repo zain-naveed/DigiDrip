@@ -1,0 +1,61 @@
+.conImage {
+    position: relative;
+    /* width: 355px; */
+    display: inherit;
+    z-index: 200;
+    /* background-color: #05050575; */
+    height: 380px;
+    overflow: hidden;
+   cursor: pointer;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay,.dangerOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #05050575;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  .dangerOverlay{
+    height: 100%;
+  }
+  .conImage:hover .overlay {
+    height: 30%;
+  }
+  
+  
+  .text,.danger {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .danger{
+      color: red;
+  }
+  .contBody{
+    background: #EAEAEA;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .contbutt{
+    width: fit-content ;
+    padding: 5px;
+  }

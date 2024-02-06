@@ -1,0 +1,46 @@
+.margin{
+    margin: 15px 0;
+}
+.Editavatar{
+    height: 99px;
+    width: 100px;
+    background: #2f2a2a;
+    /* position: absolute;
+    left: 14%;
+    bottom: -15%; */
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 12px;
+    position: relative;
+}
+.savebutton{
+    text-align: center;
+    background-color: #694489;
+    color: white;
+    height: 38px;
+    width: 64px;
+    border: none;
+    margin: 15px 0;
+}
+.camera{
+    position: absolute;
+    bottom: -24px;
+    right: 4px;
+    font-size: 30px;
+    color: black;
+}
+.savebutton:hover{
+    background-color: white;
+    color: #694489;
+    border: 1px solid #694489 !important;
+    
+}
+.savebutton:active{
+    background-color: #694489;
+    color: white;
+}
+.bottom{
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+}

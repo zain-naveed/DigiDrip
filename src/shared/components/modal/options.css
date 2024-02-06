@@ -1,0 +1,40 @@
+.small-input {
+  text-align: center;
+  height: 56px;
+  width: 123px;
+}
+.bidFooter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.options-inline {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+.auction-image {
+  margin-top: 55px;
+}
+.lg-input {
+  width: 100%;
+  text-align: center;
+  height: 56px;
+}
+.heading{
+  width: 100%;
+    text-align: center;
+    font-size: 31px;
+}
+.confirm{
+  width: 92% !important;
+  height: 35px;
+  float: right;
+  border: none;
+  background-color: #694489;
+  color: #e8e8e8;
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  font-size: 14px;
+}

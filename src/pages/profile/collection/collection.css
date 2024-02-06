@@ -1,0 +1,65 @@
+.edit{
+    position: absolute;
+    bottom: 21px;
+    right: 16%;
+}
+.btn-edit{
+    background-color: #694489;
+    color: white;
+}
+.avatar{
+    height: 149px;
+    width: 150px;
+    background: #2f2a2a;
+    position: absolute;
+    left: 14%;
+    bottom: -15%;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.avatar:hover > .upload{
+ 
+    display: flex;
+}
+.upload{
+    display: none;
+    height: inherit;
+    width: inherit;
+   
+    border-radius: inherit;
+    height: inherit;
+    width: inherit;
+    background: #1c1b1b5c;
+    border-radius: inherit;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 41px;
+}
+
+
+@media screen and  (max-width:720px)  {
+    .avatar{
+        height: 100px;
+        width: 100px;
+        background: #2f2a2a;
+        position: absolute;
+        left: 5%;
+        bottom: -15%;
+        border-radius: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .edit{
+        position: absolute;
+        bottom: 21px;
+        right: 5%;
+    }
+}
+.content{
+    margin-top: 50px;
+}

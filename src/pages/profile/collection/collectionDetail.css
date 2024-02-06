@@ -1,0 +1,94 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.collection-container{
+margin-top: 20px;
+}
+.collection-inline{
+    display: flex;
+    width: 259px;
+    justify-content: space-between;
+}
+.label{
+    font-size: 20px;
+}
+.small-input{
+    text-align: center;
+    height: 56px;
+    width: 123px; 
+}
+.price{
+    border: 1px solid #767676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.time{
+    border: 1px solid #694489;
+    padding: 0 21px;
+    box-sizing: content-box;
+    height: 59px;
+   margin-right: 10px;
+}
+.number{
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+}
+.mins{
+    color: #ABB0B6;
+}
+.custom-selection{
+    width: 100%;
+    border: none;
+    background: #EEEEEE;
+    padding: 13px;
+    margin: 10px 0;
+}
+.collection-btn {
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    min-width: 93px;
+    text-align: center;
+    color:  #694489 !important;
+    font-size: 14px;
+    border: 1px solid #694489 ;
+}
+.collection-btn:hover{
+    background-color: #694489;
+    color: white !important;
+}
+.text-back{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.add-item{
+    height: 50px;
+    width: 120px;
+    background: none;
+    border: 1px solid #694489 !important;
+}
+.add-item:hover{
+    background-color: #694489;
+    color: white;
+}
+.add-item:active{
+    background-color: white;
+    color: #694489;
+}
+/* --------------------------- collection row --------------- */
+.card-height{
+     /* height: 360px;
+    overflow: hidden; */
+    position: relative;
+}
+.card-delete{
+    position: absolute;
+    z-index: 250;
+    right: 18px;
+    color: white;
+    font-size: 27px;
+    cursor: pointer;
+}

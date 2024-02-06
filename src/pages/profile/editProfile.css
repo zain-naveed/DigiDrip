@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+}
+.custom-editProfile-btn {
+  background-color: #694489;
+  min-width: 170px !important;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  text-align: center;
+  color: #ffffff !important;
+  font-size: 14px;
+}
+.custom-editProfile-btn:hover {
+  color: #694489 !important;
+  background-color: #ffffff;
+  border: 1px solid #694489;
+}
+
+.custom-editProfile-btn {
+  border: 1px solid transparent;
+  transition: 0.2s all ease;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+  .button-container {
+    display: block;
+  }
+}

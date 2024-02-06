@@ -1,0 +1,61 @@
+.searchCard{
+    // height: 420px;
+    border: 1px solid #9e9e9e66;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 40px 0;
+    margin-bottom: 10px;
+    &:hover{
+        transition: 0.3s ease;
+        box-shadow: 0px 0px 5px #00000059;
+        transform: translateY(-5px)
+    }
+}
+.recent_search_col{
+    width: 31.33%;
+}
+.text_cont{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_des{
+    position: absolute;
+    max-width: 174px !important;
+    left: 0;
+    top: 22px;
+    width: 433px;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
+.search_filter_artist{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 2px
+     solid rgb(0 0 0 / 54%);
+    background: transparent;
+    color: black;
+    border-radius: 0px;
+    &:hover{
+        background: transparent;
+        color: black;  
+    }
+    
+}
+.font{
+    font-size: 14px;
+}
+.text_less {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+
+.text_less2 {
+    color: #6c757d !important;
+    padding: 2px 11px !important;
+}

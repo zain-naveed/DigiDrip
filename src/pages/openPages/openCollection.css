@@ -1,0 +1,15 @@
+.font{
+    font-size: 15px !important;
+}
+.center{
+    text-align: center !important;
+}
+.blue{
+    color: rgb(14 128 230)
+}
+.blue:hover{
+    color: blue;
+}
+.tabl{
+    border: none !important;
+}

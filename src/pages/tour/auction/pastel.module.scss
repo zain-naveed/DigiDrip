@@ -1,0 +1,117 @@
+.modifiedButton {
+  background-color: #694489;
+  padding: 10px 15px;
+  min-width: 150px;
+  text-align: center;
+  color: #ffffff !important;
+  font-size: 14px;
+  margin: 10px 0px;
+  cursor: pointer;
+  width: 100%;
+}
+.placeBidImage {
+  margin: 20px 10px;
+  width: 25%;
+  align-self: center;
+}
+.buttonContainer {
+  flex: 1;
+  align-self: flex-end;
+}
+.closeModalIcon {
+  color: #694489;
+  font-weight: 700;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  border: none;
+  background: none;
+}
+.placeBidForm {
+  width: 100%;
+  margin: 30px 0px;
+}
+.inputFooter {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.flex1 {
+  flex: 1;
+  text-align: left;
+}
+.flex2 {
+  flex: 1;
+  text-align: right;
+  padding-right: 5px;
+}
+.balance {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0px;
+}
+.balanceLeft {
+  flex: 1;
+  text-align: left;
+  padding-left: 5px !important;
+}
+.balanceCard {
+  flex: 1;
+  text-align: left;
+  background-color: #e8e8e8;
+  margin-right: 4px;
+}
+.submitStyles {
+  width: 100px !important;
+  height: 50px;
+  float: left;
+}
+.confirmButtonStyle {
+  width: 110px !important;
+  height: 35px;
+  float: right;
+  border: none;
+  background-color: #694489;
+  color: #e8e8e8;
+  position: absolute;
+  bottom: 0;
+  right: 12%;
+  font-size: 14px;
+}
+.confirmModalContainer {
+  align-self: center;
+  margin-bottom: 20px;
+}
+.titleLeft {
+  text-align: center;
+  font-weight: 900;
+  color: #694489;
+  font-size: 13px;
+}
+.priceRight {
+  color: #694489;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 20px;
+}
+.bidFooter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.placeBidImage2 {
+  margin: 40px 20px;
+  width: 35%;
+  align-self: center;
+}
+
+.buttonContainer1 {
+  flex: 1;
+  align-self: flex-end;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}

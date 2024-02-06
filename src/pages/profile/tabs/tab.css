@@ -1,0 +1,9 @@
+.center-text{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-height{
+    min-height: 500px;
+}

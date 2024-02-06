@@ -1,0 +1,75 @@
+.settings-main {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px 40px 50px;
+}
+.settings-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.settings-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+  margin-bottom: 7px;
+}
+
+.email-notify {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.underline {
+  font-family: "Josefin Sans", sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: rgb(88, 88, 224);
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.bid-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 13px;
+  display: inline;
+  margin-bottom: 0;
+}
+
+.bid-amount {
+  padding: 0 12px 0 12px;
+  border-bottom: 2px solid rgb(201, 200, 200);
+  font-size: 12px;
+  font-weight: 900;
+  font-family: "Josefin Sans", sans-serif;
+  display: inline;
+  margin-left: 15px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #694489;
+  background-color: #694489;
+}
+
+.custom-switch .custom-control-label::after {
+  left: -2.25em;
+  top: 4px;
+  width: 1rem;
+  height: 1rem;
+  background-color: #694489;
+}
+
+.custom-control-label::before {
+  border: 1px solid #e1c4fa;
+  background-color: #e1c4fa;
+}

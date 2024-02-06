@@ -1,0 +1,9 @@
+.textarea,.input{
+    width: 100%;
+    background-color: #EEEEEE;
+    border: none;
+    resize: none;
+    padding: 8px ;
+    color: #7B7B7B;
+   
+}

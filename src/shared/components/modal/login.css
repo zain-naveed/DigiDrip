@@ -1,0 +1,30 @@
+.login-modal-body {
+  padding: 80px 80px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-heading {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.connect-login-btn {
+  min-width: 250px;
+  height: 40px;
+  border: none;
+  background-color: #694489;
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.login-link {
+  margin-top: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
